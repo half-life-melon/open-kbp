@@ -20,7 +20,7 @@ class DefineDoseFromCT:
         initial_number_of_filters: int,
         filter_size: tuple[int, int, int],
         stride_size: tuple[int, int, int],
-        gen_optimizer: Optimizer_v2,
+        gen_optimizer: optimizer_v2,
     ):
         self.data_shapes = data_shapes
         self.initial_number_of_filters = initial_number_of_filters
