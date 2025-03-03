@@ -5,7 +5,7 @@ from keras.engine.keras_tensor import KerasTensor
 from keras.layers import Activation, AveragePooling3D, Conv3D, Conv3DTranspose, Input, LeakyReLU, SpatialDropout3D, concatenate
 from keras.layers.normalization.batch_normalization import BatchNormalization
 from keras.models import Model
-from keras.optimizers.optimizer_v2.optimizer_v2 import OptimizerV2
+from tensorflow.keras.optimizers import OptimizerV2
 
 from provided_code.data_shapes import DataShapes
 
