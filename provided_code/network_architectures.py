@@ -5,7 +5,7 @@ from keras.engine.keras_tensor import KerasTensor
 from keras.layers import Activation, AveragePooling3D, Conv3D, Conv3DTranspose, Input, LeakyReLU, SpatialDropout3D, concatenate
 from keras.layers.normalization.batch_normalization import BatchNormalization
 from keras.models import Model
-from tensorflow.keras.optimizers import OptimizerV2
+from tensorflow.python.keras.optimizer_v2 import optimizer_v2
 
 from provided_code.data_shapes import DataShapes
 
@@ -20,7 +20,7 @@ class DefineDoseFromCT:
         initial_number_of_filters: int,
         filter_size: tuple[int, int, int],
         stride_size: tuple[int, int, int],
-        gen_optimizer: OptimizerV2,
+        gen_optimizer: Optimizer_v2,
     ):
         self.data_shapes = data_shapes
         self.initial_number_of_filters = initial_number_of_filters
