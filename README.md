@@ -4,6 +4,8 @@
   
 The _open-kbp_ repository provides code that was intended to help get participants started with developing dose prediction models for the OpenKBP Challenge, which is summarized in our [paper](https://aapm.onlinelibrary.wiley.com/doi/epdf/10.1002/mp.14845). This repository has been repurposed to provide our community with an open framework for developing dose prediction methods. Note that researchers who are interested in developing their own plan optimization methods should refer to the [open-kbp-opt repository](https://github.com/ababier/open-kbp-opt).
 
+> 📖 **中文说明**: 请参阅 [README_zh.md](README_zh.md) 获取本项目的中文介绍。
+
  ![](read-me-images/pipeline.png)
 
 **Advice**: The repository can be used on either a local machine or in the cloud (for free) using [Google Colab](https://colab.research.google.com). Google Colab is a great way to compete in OpenKBP without putting a burden on your existing hardware. The service provides high-quality CPUs and GPUs for free, however, your sessions are limited to consecutive 12 hours [[Frequently asked questions]](https://research.google.com/colaboratory/faq.html). 
